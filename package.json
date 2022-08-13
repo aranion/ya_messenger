@@ -1,0 +1,17 @@
+{
+  "name": "ya_messenger",
+  "version": "1.0.0",
+  "description": "messenger",
+  "main": "./src/index.js",
+  "scripts": {
+    "start": "parcel -p 3000 ./static/index.hbs",
+    "build": "parcel build ./static/index.hbs"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@anikin/parcel-transformer-handlebars": "^1.0.9",
+    "parcel": "^2.7.0"
+  }
+}
